@@ -1,0 +1,4 @@
+undefined_type - solved plan and got same solution even when removed? all of the types?
+does PANDA even read the types? didn't seem to affect it at all 
+has a bunch of settings like 'remove useless literals' (see messages when do grounding and parsing separately) so could be something to do with that if the missing type wasn't part of the plan anyway - but still should have crashed when removed all the types (definitely some should have been used as part of the plan)
+likely a problem still solves because would seem like an incorrect domain correct- then again, if the missing type isn't part of the plan anyway maybe doesn't matter/beneficial to just ignore it? as long as crashes when run into it (but then again no, cause if driving a plane don't want to crash when new planning problems arise that run into missing type in domain)

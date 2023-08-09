@@ -1,0 +1,19 @@
+UNDEFINED TYPE DOMAIN ERROR MESSAGE:
+planning.domains - very good
+
+UNDEFINED PREDICATE DOMAIN ERROR MESSAGE:
+planning.domains - describes error well but no pinpointing of which line is the issue
+
+INCONSISTENT NUM PARAMETERS ERROR MESSAGE:
+planning.domains - describes error well but no pinpointing of which line is the issue and only shows one error at a time (had to remove an error to see the message for the other one, hence the two different results for the domain)
+
+INCONSISTENT TYPE PARAMETERS:
+planning.domains - again, good description, no line pinpointing & only shows one error at a time
+
+EXTRA PARENTHESES:
+planning.domains - unhelpful error message (unless have seen problem before) - initially diagnoses completely incorrect line (167), then diagnoses error on line 92 (the next line after the extra bracket). doesn't figure out that the extra bracket is the problem
+
+FORGOTTEN DASH: 
+planning.domains - pinpointed error line, unhelpful description
+
+CONTINUING IN TABLE FORM IN EXCEL

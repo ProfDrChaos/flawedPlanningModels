@@ -1,0 +1,65 @@
+Random seed: 42
+Time limit: 1800 seconds
+Reading input from problemincNumParametersBug.sas.
+- State has 0 bits divided into 0 mutex groups.
+- Domain contains 2 actions.
+- Domain contains 4 tasks.
+- Domain contains 3 methods.
+- The initial state contains 0 set bits.
+- The initial task is "__top[]".
+- State-based goal contains 0 bits.
+- Instance is totally-ordered: yes
+- Instance has unique paths: yes
+- Instance is parallel sequences: yes
+Calculate SCCs...
+- Number of SCCs: 4
+- The problem is acyclic
+Selected Planning Algorithm: progression searchParsing heuristics ...
+Number of specified heuristics: 0
+No heuristics given, setting default ... 
+Generate 3
+
+RC Factory: CMA 1
+- the option "store cuts" of the RC heuristic can only be used with the inner heuristic LM-Cut. It will be disabled.
+- Calculating minimal implied distances and estimated costs (0 ms)
+Heuristic #0 = hhRC2(ff;distance;correct count)
+Search config:
+ - type: path cost
+ - weight: 1
+ - suboptimal: false
+Visited List configured
+- mode: total order
+- hashs to use: state task task-sequence
+- memory information: topological ordering
+- Visited list allows deletion of search nodes: true
+Search Configuration
+- Using JAIR 2020 progression algorithm
+- Search is stopped after first solution is found.
+- A* Search
+- Distance G is "modification depth"
+Search Results
+- Search time 0 seconds
+- Visited list time 2.8e-05 seconds
+- Visited list inserts 3
+- Visited list pruned 0
+- Visited list contains 3
+- Visited list hash collisions 0
+- Visited list used hash buckets 3
+- Generated 6 search nodes
+  Calculated heuristic for 4 nodes
+  One modifications 0
+  Effectless actions 2
+- including 0 one modification actions
+- including 0 one modification methods
+- and       2 progressions of effectless actions
+- Generated -2147483648 nodes per second
+- Final fringe contains 1 nodes
+- Status: Solved
+- Found solution of length 3
+- Total costs of actions: 1
+==>
+2 move_seg_ppdoor_0_40_seg_tww1_0_200_north_south_medium[airplane_CFBEG,seg_pp_0_60]
+root 0
+1 AchieveSomeGoal[airplane_CFBEG] -> ParkAirplane 2
+0 __top[] -> __top_method 1
+<==
