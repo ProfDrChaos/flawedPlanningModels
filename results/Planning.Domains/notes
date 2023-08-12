@@ -1,7 +1,0 @@
-adding a double type declaration e.g. 
-
-(:types airplane segment direction airplanetype)
-
-(:types other types airplane)
-
-did not cause error or affect solution (although modeller should probably be warned of potential mistake)

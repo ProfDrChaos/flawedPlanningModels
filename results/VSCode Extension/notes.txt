@@ -1,8 +1,0 @@
-VSCODE EXTENSION 
-- runs planning.domain planner (can connect others if want)
-- can choose parser
-- generates graphical representation of type hierarchy (pretty cool - would be nice to have something like this for HDDL task hierarchy since much more complex & confusing)
-- also generates graphical representation of solutions
-- seemed to be delayed in recognising when problems appear/have been removed - problem messages would still be in the list of problems long after the file had been closed
-- very annoying trying to link problem and domain files - often won't recognise when both are open
-- seems to run pretty slowly - pretty intense for computer
