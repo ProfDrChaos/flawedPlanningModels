@@ -4,26 +4,26 @@ This repository includes a collection of flawed AI planning domains which are in
 
 For an overview of which domains have been tested on which software, refer to the following paper:
 
-@InProceedings{Sleath2023PossibleModelingErrors,
-  author     = {Kayleigh Sleath and Pascal Bercher},
-  title      = {Detecting AI Planning Modelling Mistakes –-- Potential Errors and Benchmark Domains},
-  booktitle  = {Proceedings of the 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI 2023)},
-  year       = {2023},
-  pages      = {448--454},
-  publisher  = {Springer}
+@InProceedings{Sleath2023PossibleModelingErrors,  
+  author     = {Kayleigh Sleath and Pascal Bercher},  
+  title      = {Detecting AI Planning Modelling Mistakes –-- Potential Errors and Benchmark Domains},  
+  booktitle  = {Proceedings of the 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI 2023)},  
+  year       = {2023},  
+  pages      = {448--454},  
+  publisher  = {Springer}  
 }
 
 Note however that some of the undetected (potential) errors could be recognized (by the tested software) by the time you are reading this. Furthermore, note that the repository as you see it now might have evolved substantially compared to the one as it looked like when used for the above paper. So, if you are interested in a snapshot of the domains and problems as they were available and used for the above paper, please instead visit:
 
 https://zenodo.org/records/8249690
 
-@Misc{Sleath2023ExperimentalData,
-  author       = {Kayleigh Sleath and Pascal Bercher},
-  title        = {Experimental Results for the PRICAI 2023 Paper ``Detecting AI Planning Modelling Mistakes -- Potential Errors and Benchmark Domains''},
-  year         = {2023},
-  copyright    = {Creative Commons Attribution 4.0 International},
-  doi          = {10.5281/zenodo.8249689},
-  publisher    = {Zenodo}
+@Misc{Sleath2023ExperimentalData,  
+  author       = {Kayleigh Sleath and Pascal Bercher},  
+  title        = {Experimental Results for the PRICAI 2023 Paper ``Detecting AI Planning Modelling Mistakes -- Potential Errors and Benchmark Domains''},  
+  year         = {2023},  
+  copyright    = {Creative Commons Attribution 4.0 International},  
+  doi          = {10.5281/zenodo.8249689},  
+  publisher    = {Zenodo}  
 }
 
 Most of the domain and problem files in our repository are altered versions of an airport PDDL file for the AIPS2000 Planning Competition, which was written by Sebastian Trueg. These files have been greatly shortened into minimal examples of a working HDDL and PDDL domain and problem file, which are stored in the baseDomains folder.
