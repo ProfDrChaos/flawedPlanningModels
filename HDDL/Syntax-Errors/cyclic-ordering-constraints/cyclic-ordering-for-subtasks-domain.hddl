@@ -16,7 +16,7 @@
 
 (define (domain airport_fixed_structure)
 
-(:requirements :typing :strips)
+(:requirements :typing )
 
 (:types airplane segment)
 
@@ -93,4 +93,15 @@
 
  :effect        ()
 )
+
+
+(:action move_seg_tww1_0_200_seg_twe1_0_200_north_south_medium
+
+ :parameters    (?a - airplane)
+
+ :precondition  ()
+
+ :effect        ()
+)
+
 )
