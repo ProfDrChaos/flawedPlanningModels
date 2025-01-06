@@ -54,10 +54,9 @@
 
 (:action move_seg_pp_0_60_seg_ppdoor_0_40_north_north_medium
 
- :parameters    (?a - airplane)
-
  ;; DUPLICATE PARAMETERS
- :parameters (?b - direction)
+ :parameters    (?a ?a - airplane)
+
 
  :precondition  (and
                  (at-segment ?a seg_pp_0_60)
